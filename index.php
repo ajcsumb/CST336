@@ -7,5 +7,7 @@
 echo "Alfred De La Costa's CST336 Home Page";
 
 ?>
+
+<a href="Labs/lab1/index.html">Lab 1</a>
 </body>
 </html>
