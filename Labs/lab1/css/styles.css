@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: gray;
+    margin: 0px auto;
+    width: 1000px;
+}
+
+header, main, nav, footer, #content {
+    text-align: center;
+    margin: 0px auto;
+}
+
+nav a {
+    /* links with "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;      /* removes underline */
+    color: white;               /* by default, links are blue */           
+}
+
+nav a:hover {
+    /* pseudo class */
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;    /* transition effect */
+}
+
+footer {
+    clear: left;
+    font-size: 0.8em;
+    color: green;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+#me, #welcomeText {
+    float: left;
+}
+
+#welcomeText {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+#gForm {
+    margin-top: 8px;
+}
+
+/* To let the user know he/she is on the current page */
+.active {
+    color: #42d7f4;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+.hobby {
+    color: yellow;
+}
+
+
+
