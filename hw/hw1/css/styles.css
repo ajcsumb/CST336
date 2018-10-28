@@ -1,6 +1,166 @@
+/* To change the entire text font */
 body {
-    margin: 0px auto;
-    width: 800px;
-    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f2f2f2;
+}
 
+h1 {
+    font-size: 3em;
+}
+
+header {
+    background-image: url("../img/pythonLogo.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: auto;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+/* To change the color of just the header navigation bar */
+header nav {
+    background-image: linear-gradient(to right, #366e9c, #ffce3d);
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: groove 2px black;
+    border-radius: 10px;
+}
+
+/* To change the links to look like buttons in the navigation */
+header nav a {
+    border: 3px solid #0066ff;
+    border-radius: 10px;
+    border-style: outset;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    background: #b3b3b3;
+}
+
+/* To change what happens when you hover over the links in the navigation bar */
+header a:hover {
+    background: white;
+}
+
+.main .sources {
+    text-align: center;
+}
+
+.main .figure {
+    border: solid 20px #366e9c;
+    border-style: groove;
+}
+
+.main .figure img {
+    display: block;
+    margin: 10px auto 10px auto;
+    animation-name: swing;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+
+.mainText h2 {
+    text-align: center;
+    border: solid 20px #ffce3d;
+    border-style: groove;
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
+
+.main h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.sources a {
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+    border: solid 2px blue;
+    background-color: #ff9900;
+    padding: 2px;
+    margin-left: 0;
+    margin-bottom: 4px;
+
+}
+
+.sources a:hover {
+    font-style: oblique;
+}
+
+.sources h4 {
+    text-align: center;
+    margin-top: 0;
+    border: 3px solid black;
+    border-style: ridge;
+    border-radius: 5px;
+    background-color: #0099ff;
+}
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: smaller;
+
+}
+
+#footerContents p {
+    font-style: oblique;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#csumbLogo {
+    border: 2px solid #1a53ff;
+    border-radius: 10px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+#csumbLogo:hover {
+    background-color: #ffcc80;
+}
+
+#footerContents p:hover {
+    text-shadow: 2px 2px 4px #00cc66;
+}
+
+
+
+/* To arrange the Unsplash Photo credit icon better */
+#unsplash {
+    text-align: center;
+    padding-top: 0px;
+    
+}
+
+
+/* Animations */
+
+/* Fade In: Turning Opacity from 0 to 100 */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+/* Swing: Going from the far left at 0 opacity to the center at 100 opacity */
+@keyframes swing {
+    0% {margin-right: 100%;}
+    25% {margin-right: 75%;}
+    50% {margin-right: 50%;}
+    75% {margin-right: 25%;}
+    90% {margin-right: 0%;}
+    100% {margin-right: auto;}
 }
