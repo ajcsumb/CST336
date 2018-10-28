@@ -63,6 +63,10 @@ header a:hover {
     animation-name: swing;
     animation-duration: 3s;
     animation-timing-function: ease-out;
+    /* For Safari */
+    -webkit-animation-name: swing;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease-out;
 }
 
 .mainText h2 {
@@ -71,6 +75,9 @@ header a:hover {
     border-style: groove;
     animation-name: fadeIn;
     animation-duration: 4s;
+    /* For Safari */
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 4s;
 }
 
 .main h2 {
@@ -157,6 +164,21 @@ header a:hover {
 
 /* Swing: Going from the far left at 0 opacity to the center at 100 opacity */
 @keyframes swing {
+    0% {margin-right: 100%;}
+    25% {margin-right: 75%;}
+    50% {margin-right: 50%;}
+    75% {margin-right: 25%;}
+    90% {margin-right: 0%;}
+    100% {margin-right: auto;}
+}
+
+/* The following animations are for Safari */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+@-webkit-keyframes swing {
     0% {margin-right: 100%;}
     25% {margin-right: 75%;}
     50% {margin-right: 50%;}
