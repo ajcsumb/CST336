@@ -1,0 +1,47 @@
+[02-Nov-2018 22:15:24 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/CST336/hw/hw2/inc/functions.php on line 5
+[02-Nov-2018 22:18:13 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CST336/hw/hw2/inc/functions.php on line 3
+[02-Nov-2018 22:24:20 UTC] PHP Fatal error:  Call to undefined function ps_stringwidth() in /home/ubuntu/workspace/CST336/hw/hw2/inc/functions.php on line 5
+[02-Nov-2018 22:24:20 UTC] PHP Stack trace:
+[02-Nov-2018 22:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/functions.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/boilerplate.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 2
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/boilerplate.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 2
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 3
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 3
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/mainHeading.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 4
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/mainHeading.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 4
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/openEmptyGamepad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 5
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/openEmptyGamepad.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 5
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/closeEmptyGamepad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 9
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/closeEmptyGamepad.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 9
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/buttonArea.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 10
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/buttonArea.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 10
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(./inc/closingHtml.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 11
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
+[03-Nov-2018 00:51:25 UTC] PHP Warning:  include(): Failed opening './inc/closingHtml.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php on line 11
+[03-Nov-2018 00:51:25 UTC] PHP Stack trace:
+[03-Nov-2018 00:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/inc/greenClicked.php:0
