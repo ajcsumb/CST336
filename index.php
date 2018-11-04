@@ -11,6 +11,6 @@ echo "Alfred De La Costa's CST336 Home Page";
 <a href="Labs/lab1/index.html">Lab 1</a>
 <a href='/hw/hw1/index.html'>Homework 1</a>
 <a href='/Labs/lab2/index.php'>Lab 2</a>
-<a href='/hw/hw2/index.php'>Homework 1</a>
+<a href='/hw/hw2/index.php'>Homework 2</a>
 </body>
 </html>
