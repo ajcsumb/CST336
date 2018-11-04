@@ -475,3 +475,25 @@
 [03-Nov-2018 18:42:27 UTC] PHP Parse error:  syntax error, unexpected '$pad' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/CST336/hw/hw2/inc/staticElements.php on line 10
 [03-Nov-2018 18:42:27 UTC] PHP Stack trace:
 [03-Nov-2018 18:42:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[04-Nov-2018 05:31:50 UTC] PHP Warning:  include(./gameInfo.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw2/inc/animalRow.php on line 2
+[04-Nov-2018 05:31:50 UTC] PHP Stack trace:
+[04-Nov-2018 05:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/play.php:0
+[04-Nov-2018 05:31:50 UTC] PHP   2. include() /home/ubuntu/workspace/CST336/hw/hw2/play.php:6
+[04-Nov-2018 05:31:50 UTC] PHP Warning:  include(): Failed opening './gameInfo.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw2/inc/animalRow.php on line 2
+[04-Nov-2018 05:31:50 UTC] PHP Stack trace:
+[04-Nov-2018 05:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/play.php:0
+[04-Nov-2018 05:31:50 UTC] PHP   2. include() /home/ubuntu/workspace/CST336/hw/hw2/play.php:6
+[04-Nov-2018 05:31:50 UTC] PHP Fatal error:  Call to undefined function getAnimals() in /home/ubuntu/workspace/CST336/hw/hw2/inc/animalRow.php on line 52
+[04-Nov-2018 05:31:50 UTC] PHP Stack trace:
+[04-Nov-2018 05:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/play.php:0
+[04-Nov-2018 05:31:50 UTC] PHP   2. include() /home/ubuntu/workspace/CST336/hw/hw2/play.php:6
+[04-Nov-2018 05:49:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw2/quit.php on line 18
+[04-Nov-2018 05:49:55 UTC] PHP Stack trace:
+[04-Nov-2018 05:49:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/quit.php:0
+[04-Nov-2018 05:49:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw2/quit.php:18
+[04-Nov-2018 06:07:06 UTC] PHP Fatal error:  Class 'ob1' not found in /home/ubuntu/workspace/CST336/hw/hw2/quit.php on line 23
+[04-Nov-2018 06:07:06 UTC] PHP Stack trace:
+[04-Nov-2018 06:07:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/quit.php:0
+[04-Nov-2018 06:08:14 UTC] PHP Catchable fatal error:  Object of class Game could not be converted to string in /home/ubuntu/workspace/CST336/hw/hw2/quit.php on line 23
+[04-Nov-2018 06:08:14 UTC] PHP Stack trace:
+[04-Nov-2018 06:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/quit.php:0
