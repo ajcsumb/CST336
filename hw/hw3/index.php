@@ -87,9 +87,9 @@
         <fieldset>
             <div class="holidayForm">
                 <legend>Have you waited for a holiday sale?</legend>
-                <input id="hSaleYes" type="radio" name="hSale" value="waited for holiday sale" <?= ($_POST['hSale'] == 'waited for holiday sale') ? "checked" : "" ?> required/>
+                <input id="hSaleYes" type="radio" name="hSale" value="waited for a holiday sale" <?= ($_POST['hSale'] == 'waited for holiday sale') ? "checked" : "" ?> required/>
                 <label for="hSaleYes">Yes</label><br>
-                <input id="hSaleNo" type="radio" name="hSale" value="not waited for holiday sale" <?= ($_POST['hSale'] == 'not waited for holiday sale') ? "checked" : "" ?>/>
+                <input id="hSaleNo" type="radio" name="hSale" value="not waited for a holiday sale" <?= ($_POST['hSale'] == 'not waited for holiday sale') ? "checked" : "" ?>/>
                 <label for="hSaleNo">No</label>
             </div>
         </fieldset>
