@@ -1,0 +1,178 @@
+body {
+    background-color: #e9ecef;
+}
+
+form {
+    padding-top: 5px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cBoxes {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 15em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+}
+
+.nameForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+}
+
+.productForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.frequencyForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.costForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.saleForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.holidayForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.usedForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sellForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.justForm {
+    border: 2px solid #00ace6;
+    border-radius: 10px;
+    width: 25em;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #cce6ff;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stdLabels {
+    padding-top: 10px;
+    
+}
+
+.jumbotron {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.my-4 {
+    width: 80%;
+}
+
+.response {
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    margin: auto;
+    padding-left: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    font-family: 'Acme', sans-serif;
+}
+
+.responseHeader h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+}
+
+.hideMe {
+    display: none;
+}
+
+#description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#resetForm {
+    margin-bottom: 15px;
+    background-color: inherit;
+    
+}
