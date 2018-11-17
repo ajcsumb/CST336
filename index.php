@@ -16,5 +16,6 @@ echo "Alfred De La Costa's CST336 Home Page";
 <a href='/hw/hw3/index.php'>Homework 3</a><br>
 <a href='/Labs/lab4/scart/index.php'>Lab 4</a><br>
 <a href='/Labs/lab5/index.php'>Lab 5</a><br>
+<a href='/Labs/lab6/login.php'>Lab 6</a><br>
 </body>
 </html>
