@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Shooting Monkeys</title>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+		<!-- Scripts -->
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+		<!-- Custom JavaScript -->
+		<script language="javascript" type="text/javascript" src="engine.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron">
+		  <h1 id="title" class="display-4">Shoot The Monkeys!</h1>
+		  <p id="description">Try to hit ten monkeys without missing five!<br>Press Play to start!</p>
+		  <div id="gameWindow" class='rounded'>
+			<div id="monkey_01" class="monkey"></div>
+		  </div>
+		  <hr class="my-4">
+		  <div id='output'>
+			<span id='numHits'>Monkeys Hit: 0</span>
+			<span id='numMisses'>Monkeys Missed: 0</span>
+	      </div>
+		  <a id="playBtn" class="btn btn-success btn-lg btn-block" href="#" role="button">Play</a>
+		</div>
+		<!--<div id="gameWindow">-->
+		<!--	<div id="monkey_01" class="monkey"></div>-->
+		<!--</div>-->
+		<!--<div id='output'>-->
+		<!--	<span id='numHits'></span><br /> -->
+		<!--	<span id='numMisses'></span>-->
+		<!--</div>-->
+	</body>
+</html>
+
