@@ -1,0 +1,45 @@
+body {
+    background-color: #e6f9ff !important;
+}
+
+header h1 {
+    margin-top: 0.1em;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+#won, #lost {
+    display: none;
+}
+
+#words, #letters {
+    padding: 20px 0px;
+}
+
+#man {
+    margin: 0.5em auto;
+    width: 600px;
+    height: 600px;
+    border: groove;
+    border-color: #0099cc;
+    border-radius: 5px;
+    border-width: 0.5em;
+}
+
+#word {
+    font-size: 1.8em;
+}
+
+#wordsGuessed {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.hint {
+    font-size: 0.6em !important;
+}
+
+.btn {
+    padding: 7px 7px !important;
+    margin: 0px 2px;
+}
