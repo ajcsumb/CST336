@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+$message = "";
+
 include 'connect.php';
 $connect = getDBConnection();
 
@@ -17,6 +19,18 @@ if(isset($user['username'])){
     $_SESSION['username'] = $user['username'];
     header("Location: index.php");
 } else {
-    echo "The values you entered were incorrect. <a href='login.php'>Retry</a>";
+    $message = "The values you entered were incorrect. <a id='retryLink' href='login.php'><br />Retry</a>";
 }
 ?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invalid Login</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 id="invalidCreds">Invalid Credentials</h1>
+        <?= $message; ?>
+    </body>
+</html>

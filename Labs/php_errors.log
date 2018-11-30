@@ -854,3 +854,12 @@ Stack trace:
 [17-Nov-2018 09:35:35 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/CST336/Labs/lab6/updateProduct.php on line 40
 [17-Nov-2018 09:35:35 UTC] PHP Stack trace:
 [17-Nov-2018 09:35:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Labs/lab6/updateProduct.php:0
+[30-Nov-2018 17:52:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:52:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:52:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:52:35 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:52:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:52:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:53:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:53:51 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34
+[30-Nov-2018 17:53:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/Labs/lab8/verifyUser.php on line 34

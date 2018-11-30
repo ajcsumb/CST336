@@ -1,5 +1,5 @@
 body {
-    font-family: Calibri;
+    font-family: 'Lato', sans-serif;
     font-size: 1.15em;
     text-align: center;
     background-color: #ccddff;
@@ -24,6 +24,31 @@ form {
     border: 0.5em solid black;
 }
 
+#logoutBtn {
+    text-align: right;
+    float: right;
+    margin-right: 2.5em;
+    font-size: 0.8em;
+}
+
+#feedback {
+    display: none;  /*Hides feedback when accessing quiz */
+    margin: 0 auto;
+    text-align: center;
+    border-style: dotted;
+    border-width: 0.3em;
+    border-color: black;
+    padding-bottom: 1.0em;
+    
+}
+
+#retryLink {
+    text-decoration: none;
+    font-size: 2.0em;
+    font-style: bold;
+    color: blue; 
+}
+
 .answer {
     background-color: yellow;
     margin: 5px;
@@ -37,15 +62,6 @@ form {
     color: red;
 }
 
-#feedback {
-    display: none;  /*Hides feedback when accessing quiz */
-    margin: 0 auto;
-    text-align: center;
-    border-style: dotted;
-    border-width: 0.3em;
-    border-color: black;
-    
-}
 
 /*Content Wrapper for everything under user menu*/ 
 .content-wrapper {

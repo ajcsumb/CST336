@@ -16,14 +16,15 @@ function displayQuiz(){
     <head>
         <title>CSUMB Online Quiz</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
-        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     
     <body>
         <!--Display user and logout button-->
         <div class="user-menu">
-            <?php echo "Welcome ".$_SESSION['username']."! ";?> 
-            <br /><input type="button" id="logoutBtn" value="Logout" />    
+            <?php echo "Welcome ".$_SESSION['username']."! ";?>
+            <input type="button" id="logoutBtn" value="Logout" />    
         </div>
         
         <div class="content-wrapper">
